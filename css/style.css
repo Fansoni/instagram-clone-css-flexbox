@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(28, 56, 150, 0.8);
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone img {
+    width: 400px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #DADADA;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.card:nth-child(1) {
+    min-height: 320px;
+}
+
+.logo {
+    width: 175px;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 520px;
+}
+
+.sign form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.sign form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0.5px solid #DADADA;
+    background-color: #FAFAFA;
+    font-size: 10pt;
+}
+
+.sign form button {
+    background-color: #7cc4f5;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.sign form button:hover {
+    cursor: pointer;
+}
+
+.password-reset {
+    font-size: 8pt;
+}
+
+.facebook-icon {
+    color: white;
+    font-size: 14pt;
+    background-color: #2e4270;
+    padding: 1px 4px 1px 8px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+}
+
+.others {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.others img {
+    width: 150px;
+    margin: 5px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .section {
+        width: 100%;
+    }
+    .phone {
+        display: none;
+    }
+    .sign {
+        width: 100%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .section {
+        width: 100%;
+    }
+    .phone {
+        display: none;
+    }
+    .sign {
+        width: 100%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .section {
+        width: 100%;
+    }
+    .phone {
+        display: flex;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .section {
+        width: 70%;
+    }
+    .sign {
+        width: 50%;
+    }
+}
