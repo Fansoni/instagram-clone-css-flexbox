@@ -14,8 +14,7 @@ I hope that you could enjoy it! 🏃‍♂️🏃‍♂️🏃‍♂️🤸‍�
 -   CSS Flexbox
 -   CSS MediaQueries
 
+[See the video in my linkedin](https://www.linkedin.com/posts/fansoni-muzanzo-022a79122_fansonimuzanzo-web-css-activity-6775728045631295488-M9Ou) 🏃‍♂️🏃‍♂️🏃‍♂️
 ### Simple Preview 👁
 
 ![Simple Preview](img/instagram-clone.PNG)
-
-[See the video in my linkedin](https://www.linkedin.com/posts/fansoni-muzanzo-022a79122_fansonimuzanzo-web-css-activity-6775728045631295488-M9Ou) 🏃‍♂️🏃‍♂️🏃‍♂️
